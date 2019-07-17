@@ -1,0 +1,9 @@
+<Device Model="PRO3" Name="PRO3.">
+   <Network Type="Cresnet" Id="04"/>
+   <Network Type="Ethernet" Id="05">
+      <Device Model="Core3 UI XPanel" DeviceId="04" Name="TST-902 - XPanel 2.0 Simulator"/>
+      <Device Model="Core3 UI XPanel" DeviceId="05" Name="XPanel 2.0 Smart Graphics"/>
+      <Device Model="Crestron_App" DeviceId="06" Name="Crestron App"/>
+      <Device Model="DM-MD16x16" DeviceId="08" Name="DM-MD16x16 with RPS"/>
+   </Network>
+</Device>

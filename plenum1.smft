@@ -1,0 +1,13 @@
+<Device Model="CP3N">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CEN-GWEXER" DeviceId="04">
+         <Network Type="RF">
+            <Device Model="TST-902" DeviceId="03" Name="TST-902 (EX)"/>
+         </Network>
+      </Device>
+      <Device Model="Core3 UI XPanel" DeviceId="05" Name="XPanel 2.0 Smart Graphics"/>
+      <Device Model="Crestron_App" DeviceId="06" Name="Crestron App"/>
+      <Device Model="DM-MD16x16" DeviceId="08" Name="DM-MD16x16 with RPS"/>
+   </Network>
+</Device>
